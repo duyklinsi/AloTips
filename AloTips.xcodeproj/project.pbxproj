@@ -17,7 +17,6 @@
 		84DFF21A26BAA24300F145D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DFF21826BAA24300F145D3 /* LaunchScreen.storyboard */; };
 		84DFF22526BAA24300F145D3 /* AloTipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF22426BAA24300F145D3 /* AloTipsTests.swift */; };
 		84DFF23026BAA24300F145D3 /* AloTipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF22F26BAA24300F145D3 /* AloTipsUITests.swift */; };
-		C54D4EB617DDBF4968CF2E12 /* Pods_AloTips_AloTipsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314597A956C0D6612D4E3671 /* Pods_AloTips_AloTipsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		0814726905D6135892E4C216 /* Pods_AloTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1119CFAC46E3C1839FEA8B24 /* Pods-AloTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		314597A956C0D6612D4E3671 /* Pods_AloTips_AloTipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloTips_AloTipsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		364D26A4EC3C7A5409175ECB /* Pods-AloTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests.release.xcconfig"; sourceTree = "<group>"; };
 		84DFF20A26BAA24100F145D3 /* AloTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DFF20D26BAA24100F145D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +56,7 @@
 		84DFF23126BAA24300F145D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8827E8A1EF8DE8765DD4A975 /* Pods-AloTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips.debug.xcconfig"; path = "Target Support Files/Pods-AloTips/Pods-AloTips.debug.xcconfig"; sourceTree = "<group>"; };
 		8C5519D66B5C5394EBEBAD31 /* Pods-AloTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips.release.xcconfig"; path = "Target Support Files/Pods-AloTips/Pods-AloTips.release.xcconfig"; sourceTree = "<group>"; };
-		C3F048CEAA258E4EAFC6121B /* Pods-AloTips-AloTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips-AloTipsUITests.release.xcconfig"; path = "Target Support Files/Pods-AloTips-AloTipsUITests/Pods-AloTips-AloTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C49D7D42DDC66ABA1167317F /* Pods_AloTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC53ABD6468AA62AEB7586B6 /* Pods-AloTips-AloTipsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips-AloTipsUITests.debug.xcconfig"; path = "Target Support Files/Pods-AloTips-AloTipsUITests/Pods-AloTips-AloTipsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C54D4EB617DDBF4968CF2E12 /* Pods_AloTips_AloTipsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +91,6 @@
 			children = (
 				8827E8A1EF8DE8765DD4A975 /* Pods-AloTips.debug.xcconfig */,
 				8C5519D66B5C5394EBEBAD31 /* Pods-AloTips.release.xcconfig */,
-				FC53ABD6468AA62AEB7586B6 /* Pods-AloTips-AloTipsUITests.debug.xcconfig */,
-				C3F048CEAA258E4EAFC6121B /* Pods-AloTips-AloTipsUITests.release.xcconfig */,
 				1119CFAC46E3C1839FEA8B24 /* Pods-AloTipsTests.debug.xcconfig */,
 				364D26A4EC3C7A5409175ECB /* Pods-AloTipsTests.release.xcconfig */,
 			);
@@ -163,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				0814726905D6135892E4C216 /* Pods_AloTips.framework */,
-				314597A956C0D6612D4E3671 /* Pods_AloTips_AloTipsUITests.framework */,
 				C49D7D42DDC66ABA1167317F /* Pods_AloTipsTests.framework */,
 			);
 			name = Frameworks;
@@ -180,6 +172,7 @@
 				84DFF20626BAA24100F145D3 /* Sources */,
 				84DFF20726BAA24100F145D3 /* Frameworks */,
 				84DFF20826BAA24100F145D3 /* Resources */,
+				815D64C1E0904A7F63E283B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +191,7 @@
 				84DFF21C26BAA24300F145D3 /* Sources */,
 				84DFF21D26BAA24300F145D3 /* Frameworks */,
 				84DFF21E26BAA24300F145D3 /* Resources */,
+				5DEA595330FD9D5C9AD214AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,7 +207,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84DFF23A26BAA24300F145D3 /* Build configuration list for PBXNativeTarget "AloTipsUITests" */;
 			buildPhases = (
-				BB744979EDA77A465E185BA0 /* [CP] Check Pods Manifest.lock */,
 				84DFF22726BAA24300F145D3 /* Sources */,
 				84DFF22826BAA24300F145D3 /* Frameworks */,
 				84DFF22926BAA24300F145D3 /* Resources */,
@@ -320,26 +313,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BB744979EDA77A465E185BA0 /* [CP] Check Pods Manifest.lock */ = {
+		5DEA595330FD9D5C9AD214AB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AloTips-AloTipsUITests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815D64C1E0904A7F63E283B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C7D8B68BC8EF4B8712F7538D /* [CP] Check Pods Manifest.lock */ = {
@@ -632,7 +637,6 @@
 		};
 		84DFF23B26BAA24300F145D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC53ABD6468AA62AEB7586B6 /* Pods-AloTips-AloTipsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -653,7 +657,6 @@
 		};
 		84DFF23C26BAA24300F145D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3F048CEAA258E4EAFC6121B /* Pods-AloTips-AloTipsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

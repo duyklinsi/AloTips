@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AloTips_AloTipsUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AloTips_AloTipsUITestsVersionString[];
+FOUNDATION_EXPORT double NetworkingVersionNumber;
+FOUNDATION_EXPORT const unsigned char NetworkingVersionString[];
 
