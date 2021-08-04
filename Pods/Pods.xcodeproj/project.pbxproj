@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EE0B24C7F083BC7DAC665779EE7A2E /* Pods-AloTipsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B7ABE673022B60899C8F775ABC26E3 /* Pods-AloTipsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C188FE41E09DAA7B91183D7F5126218 /* Pods-AloTips-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C731CD72E6319260433A200B022BC02E /* Pods-AloTips-dummy.m */; };
+		53FBB86C28E13CBA64FD619AFCC8FB20 /* Pods-AloTips-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8388D32EC0FB446ED1EC064DF609667 /* Pods-AloTips-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558B2FC6E6F4483C32693EEB0C1DC9C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7DA38711865C89973D8159FE828AEBC4 /* Pods-AloTips-AloTipsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EA96ADD828BC484C7FD6FC8D5981D6 /* Pods-AloTips-AloTipsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A5DC479072F03A24DBF107FAB38DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D0FACA3FF90CC606A9A9B4EB3A6C8BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E2D39D9B6705F41262B5B243AD9ADDE6 /* Pods-AloTipsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D6107709B3E27C43F5FFBAD0C6F621 /* Pods-AloTipsTests-dummy.m */; };
+		EDB2EC64E0C78CA322BFEA5A09FBBA2B /* Pods-AloTips-AloTipsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81F233943B3F358E23F528A1D69A67 /* Pods-AloTips-AloTipsUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E32B1EF46B8B31E0E84B0558EF6FFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0D552B89295719DA2CAC6AB5ACC98E;
+			remoteInfo = "Pods-AloTips";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1528B0689E48D60C308234A1B3C09863 /* Pods-AloTips-AloTipsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AloTips-AloTipsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17EA1026708D3CA89578CEF6886B1E64 /* Pods-AloTipsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AloTipsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A0EBD8700654F855F17D06F3C8014B0 /* Pods-AloTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D1596E139056756D290020F3B0CAEC6 /* Pods-AloTips-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloTips-acknowledgements.plist"; sourceTree = "<group>"; };
+		485FF8DBFA27E050481453704EEA8BFB /* Pods-AloTips-AloTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloTips-AloTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A65CD1CBD05AC7BA73066E1597BC6D4 /* Pods-AloTips-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AloTips-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67BD679E352BCEB5E8E25238C193051E /* Pods-AloTipsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloTipsTests-Info.plist"; sourceTree = "<group>"; };
+		684757319CA8C1E87BE0912EA11EB246 /* Pods-AloTips-AloTipsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AloTips-AloTipsUITests.modulemap"; sourceTree = "<group>"; };
+		6B7939AEAF96484E9D20A0EF3DA46A6D /* Pods-AloTipsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AloTipsTests.modulemap"; sourceTree = "<group>"; };
+		6FC015B3CF128B4C9CADDBEC2274BF12 /* Pods-AloTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloTipsTests.release.xcconfig"; sourceTree = "<group>"; };
+		71D6107709B3E27C43F5FFBAD0C6F621 /* Pods-AloTipsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AloTipsTests-dummy.m"; sourceTree = "<group>"; };
+		72C53AA133354C4FC1AB91AC928A1C20 /* Pods-AloTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloTips.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8AE2826C4F8AA1B586274A5452F9890D /* Pods-AloTips-AloTipsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloTips-AloTipsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FCC840DE19DBD32A489C7B6BB8A1232 /* Pods_AloTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AloTipsTests.framework; path = "Pods-AloTipsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A82067A4002907031535739BCD4B4C2D /* Pods-AloTips-AloTipsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloTips-AloTipsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8DC3668CD997EABD322D2C8D5577F0A /* Pods-AloTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AloTips.release.xcconfig"; sourceTree = "<group>"; };
+		AB81F233943B3F358E23F528A1D69A67 /* Pods-AloTips-AloTipsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AloTips-AloTipsUITests-dummy.m"; sourceTree = "<group>"; };
+		BFF7E413AC8C6F84EE083EEE7AF168B3 /* Pods-AloTips.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AloTips.modulemap"; sourceTree = "<group>"; };
+		C34C080A8371F9D7080B0BAC9ED79E4F /* Pods-AloTips-AloTipsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloTips-AloTipsUITests-Info.plist"; sourceTree = "<group>"; };
+		C731CD72E6319260433A200B022BC02E /* Pods-AloTips-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AloTips-dummy.m"; sourceTree = "<group>"; };
+		E0EA96ADD828BC484C7FD6FC8D5981D6 /* Pods-AloTips-AloTipsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AloTips-AloTipsUITests-umbrella.h"; sourceTree = "<group>"; };
+		E16E9DA031D02C437EA279BD7606B49D /* Pods-AloTipsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloTipsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3B7ABE673022B60899C8F775ABC26E3 /* Pods-AloTipsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AloTipsTests-umbrella.h"; sourceTree = "<group>"; };
+		E61FBE38C956EF239D79A9DB0D951C57 /* Pods_AloTips_AloTipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AloTips_AloTipsUITests.framework; path = "Pods-AloTips-AloTipsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8388D32EC0FB446ED1EC064DF609667 /* Pods-AloTips-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AloTips-umbrella.h"; sourceTree = "<group>"; };
+		FB376816C05770CBE47140FDB32BA84A /* Pods_AloTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AloTips.framework; path = "Pods-AloTips.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDB9A92B35AF19AC10FF34C50FC312D /* Pods-AloTips-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AloTips-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E836FF3B4F03DBDC925176B9A18F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A5DC479072F03A24DBF107FAB38DDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F5E2BB0387A166F294462F01D57164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FACA3FF90CC606A9A9B4EB3A6C8BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8A07B16D82F3E18DDE5B7F77334D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558B2FC6E6F4483C32693EEB0C1DC9C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A460A21EA4F4741AE5690BB15EA8AA /* Pods-AloTipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B7939AEAF96484E9D20A0EF3DA46A6D /* Pods-AloTipsTests.modulemap */,
+				17EA1026708D3CA89578CEF6886B1E64 /* Pods-AloTipsTests-acknowledgements.markdown */,
+				E16E9DA031D02C437EA279BD7606B49D /* Pods-AloTipsTests-acknowledgements.plist */,
+				71D6107709B3E27C43F5FFBAD0C6F621 /* Pods-AloTipsTests-dummy.m */,
+				67BD679E352BCEB5E8E25238C193051E /* Pods-AloTipsTests-Info.plist */,
+				E3B7ABE673022B60899C8F775ABC26E3 /* Pods-AloTipsTests-umbrella.h */,
+				1A0EBD8700654F855F17D06F3C8014B0 /* Pods-AloTipsTests.debug.xcconfig */,
+				6FC015B3CF128B4C9CADDBEC2274BF12 /* Pods-AloTipsTests.release.xcconfig */,
+			);
+			name = "Pods-AloTipsTests";
+			path = "Target Support Files/Pods-AloTipsTests";
+			sourceTree = "<group>";
+		};
+		2C1439603D8CECF1193180CDD3D7DFAC /* Pods-AloTips-AloTipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				684757319CA8C1E87BE0912EA11EB246 /* Pods-AloTips-AloTipsUITests.modulemap */,
+				1528B0689E48D60C308234A1B3C09863 /* Pods-AloTips-AloTipsUITests-acknowledgements.markdown */,
+				A82067A4002907031535739BCD4B4C2D /* Pods-AloTips-AloTipsUITests-acknowledgements.plist */,
+				AB81F233943B3F358E23F528A1D69A67 /* Pods-AloTips-AloTipsUITests-dummy.m */,
+				C34C080A8371F9D7080B0BAC9ED79E4F /* Pods-AloTips-AloTipsUITests-Info.plist */,
+				E0EA96ADD828BC484C7FD6FC8D5981D6 /* Pods-AloTips-AloTipsUITests-umbrella.h */,
+				8AE2826C4F8AA1B586274A5452F9890D /* Pods-AloTips-AloTipsUITests.debug.xcconfig */,
+				485FF8DBFA27E050481453704EEA8BFB /* Pods-AloTips-AloTipsUITests.release.xcconfig */,
+			);
+			name = "Pods-AloTips-AloTipsUITests";
+			path = "Target Support Files/Pods-AloTips-AloTipsUITests";
+			sourceTree = "<group>";
+		};
+		412EBFEFFA63F8B2EED23093A8328253 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB1860F0BEC00DA5419227A7D361FDD /* Pods-AloTips */,
+				2C1439603D8CECF1193180CDD3D7DFAC /* Pods-AloTips-AloTipsUITests */,
+				02A460A21EA4F4741AE5690BB15EA8AA /* Pods-AloTipsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5895778BF9133F78E2202410F9985CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB376816C05770CBE47140FDB32BA84A /* Pods_AloTips.framework */,
+				E61FBE38C956EF239D79A9DB0D951C57 /* Pods_AloTips_AloTipsUITests.framework */,
+				8FCC840DE19DBD32A489C7B6BB8A1232 /* Pods_AloTipsTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB1860F0BEC00DA5419227A7D361FDD /* Pods-AloTips */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7E413AC8C6F84EE083EEE7AF168B3 /* Pods-AloTips.modulemap */,
+				5A65CD1CBD05AC7BA73066E1597BC6D4 /* Pods-AloTips-acknowledgements.markdown */,
+				1D1596E139056756D290020F3B0CAEC6 /* Pods-AloTips-acknowledgements.plist */,
+				C731CD72E6319260433A200B022BC02E /* Pods-AloTips-dummy.m */,
+				FCDB9A92B35AF19AC10FF34C50FC312D /* Pods-AloTips-Info.plist */,
+				E8388D32EC0FB446ED1EC064DF609667 /* Pods-AloTips-umbrella.h */,
+				72C53AA133354C4FC1AB91AC928A1C20 /* Pods-AloTips.debug.xcconfig */,
+				A8DC3668CD997EABD322D2C8D5577F0A /* Pods-AloTips.release.xcconfig */,
+			);
+			name = "Pods-AloTips";
+			path = "Target Support Files/Pods-AloTips";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5895778BF9133F78E2202410F9985CF8 /* Products */,
+				412EBFEFFA63F8B2EED23093A8328253 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38C77F74640BB2D80E65D3002FE7E8FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA38711865C89973D8159FE828AEBC4 /* Pods-AloTips-AloTipsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77B305AB69221A7D71191C2D5C009D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FBB86C28E13CBA64FD619AFCC8FB20 /* Pods-AloTips-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00F21143D7DF649C743AA4DB573107C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EE0B24C7F083BC7DAC665779EE7A2E /* Pods-AloTipsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00FFB93FDF1686DF288D4F323EFEDF1A /* Pods-AloTipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009CE3C8C8490BA47288935E6218E4F2 /* Build configuration list for PBXNativeTarget "Pods-AloTipsTests" */;
+			buildPhases = (
+				E00F21143D7DF649C743AA4DB573107C /* Headers */,
+				3B70B759E28826E2317936A7744B539F /* Sources */,
+				EE8A07B16D82F3E18DDE5B7F77334D0B /* Frameworks */,
+				F7DD3CD6FD77814EB652081A35C4898F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				926D5B472023D164C8A84732A1403755 /* PBXTargetDependency */,
+			);
+			name = "Pods-AloTipsTests";
+			productName = "Pods-AloTipsTests";
+			productReference = 8FCC840DE19DBD32A489C7B6BB8A1232 /* Pods_AloTipsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B0D552B89295719DA2CAC6AB5ACC98E /* Pods-AloTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF52893D88D25A78ED10E5135E084251 /* Build configuration list for PBXNativeTarget "Pods-AloTips" */;
+			buildPhases = (
+				D77B305AB69221A7D71191C2D5C009D7 /* Headers */,
+				90350D4DC2906BF7A18AAEE200267520 /* Sources */,
+				34E836FF3B4F03DBDC925176B9A18F2F /* Frameworks */,
+				46D6D80E973C18F421D4D042E74D6975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AloTips";
+			productName = "Pods-AloTips";
+			productReference = FB376816C05770CBE47140FDB32BA84A /* Pods_AloTips.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		12E138D348735EF007B733FB850ADB99 /* Pods-AloTips-AloTipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238EA53B4F56E1C2CFCD1D88FE6817CE /* Build configuration list for PBXNativeTarget "Pods-AloTips-AloTipsUITests" */;
+			buildPhases = (
+				38C77F74640BB2D80E65D3002FE7E8FA /* Headers */,
+				650DB8AE47F8103CF6CB52F825458342 /* Sources */,
+				A3F5E2BB0387A166F294462F01D57164 /* Frameworks */,
+				D173402EEE6F1B4F0F8059C8621F5729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AloTips-AloTipsUITests";
+			productName = "Pods-AloTips-AloTipsUITests";
+			productReference = E61FBE38C956EF239D79A9DB0D951C57 /* Pods_AloTips_AloTipsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5895778BF9133F78E2202410F9985CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B0D552B89295719DA2CAC6AB5ACC98E /* Pods-AloTips */,
+				12E138D348735EF007B733FB850ADB99 /* Pods-AloTips-AloTipsUITests */,
+				00FFB93FDF1686DF288D4F323EFEDF1A /* Pods-AloTipsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D6D80E973C18F421D4D042E74D6975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D173402EEE6F1B4F0F8059C8621F5729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DD3CD6FD77814EB652081A35C4898F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B70B759E28826E2317936A7744B539F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D39D9B6705F41262B5B243AD9ADDE6 /* Pods-AloTipsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650DB8AE47F8103CF6CB52F825458342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB2EC64E0C78CA322BFEA5A09FBBA2B /* Pods-AloTips-AloTipsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90350D4DC2906BF7A18AAEE200267520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C188FE41E09DAA7B91183D7F5126218 /* Pods-AloTips-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		926D5B472023D164C8A84732A1403755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AloTips";
+			target = 0B0D552B89295719DA2CAC6AB5ACC98E /* Pods-AloTips */;
+			targetProxy = 9E32B1EF46B8B31E0E84B0558EF6FFC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40E5DBE0C5E01D177E45922114D581B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0EBD8700654F855F17D06F3C8014B0 /* Pods-AloTipsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		671E74C1710CE4B173655DAC8F6EF7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485FF8DBFA27E050481453704EEA8BFB /* Pods-AloTips-AloTipsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AloTips-AloTipsUITests/Pods-AloTips-AloTipsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AloTips-AloTipsUITests/Pods-AloTips-AloTipsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6892F9750C9F8742CE696A3C8388178E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE2826C4F8AA1B586274A5452F9890D /* Pods-AloTips-AloTipsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AloTips-AloTipsUITests/Pods-AloTips-AloTipsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AloTips-AloTipsUITests/Pods-AloTips-AloTipsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A5CDB564EB6BA9CCA1EF2E824F7EDE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C53AA133354C4FC1AB91AC928A1C20 /* Pods-AloTips.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AloTips/Pods-AloTips-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AloTips/Pods-AloTips.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B693DC1CD934E3A73B22031C374E43D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC015B3CF128B4C9CADDBEC2274BF12 /* Pods-AloTipsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7C9BB827F27D403F0C9A2F908E3B74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DC3668CD997EABD322D2C8D5577F0A /* Pods-AloTips.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AloTips/Pods-AloTips-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AloTips/Pods-AloTips.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009CE3C8C8490BA47288935E6218E4F2 /* Build configuration list for PBXNativeTarget "Pods-AloTipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E5DBE0C5E01D177E45922114D581B6 /* Debug */,
+				B693DC1CD934E3A73B22031C374E43D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238EA53B4F56E1C2CFCD1D88FE6817CE /* Build configuration list for PBXNativeTarget "Pods-AloTips-AloTipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6892F9750C9F8742CE696A3C8388178E /* Debug */,
+				671E74C1710CE4B173655DAC8F6EF7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF52893D88D25A78ED10E5135E084251 /* Build configuration list for PBXNativeTarget "Pods-AloTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CDB564EB6BA9CCA1EF2E824F7EDE84 /* Debug */,
+				F7C9BB827F27D403F0C9A2F908E3B74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		692693766E90817A5810C843 /* Pods_AloTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D7D42DDC66ABA1167317F /* Pods_AloTipsTests.framework */; };
+		778A5A7D27AA18391A0AD80D /* Pods_AloTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0814726905D6135892E4C216 /* Pods_AloTips.framework */; };
+		84DFF20E26BAA24100F145D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF20D26BAA24100F145D3 /* AppDelegate.swift */; };
+		84DFF21026BAA24100F145D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF20F26BAA24100F145D3 /* SceneDelegate.swift */; };
+		84DFF21226BAA24100F145D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF21126BAA24100F145D3 /* ViewController.swift */; };
+		84DFF21526BAA24100F145D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DFF21326BAA24100F145D3 /* Main.storyboard */; };
+		84DFF21726BAA24300F145D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DFF21626BAA24300F145D3 /* Assets.xcassets */; };
+		84DFF21A26BAA24300F145D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DFF21826BAA24300F145D3 /* LaunchScreen.storyboard */; };
+		84DFF22526BAA24300F145D3 /* AloTipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF22426BAA24300F145D3 /* AloTipsTests.swift */; };
+		84DFF23026BAA24300F145D3 /* AloTipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF22F26BAA24300F145D3 /* AloTipsUITests.swift */; };
+		C54D4EB617DDBF4968CF2E12 /* Pods_AloTips_AloTipsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314597A956C0D6612D4E3671 /* Pods_AloTips_AloTipsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DFF22126BAA24300F145D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DFF20226BAA24100F145D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DFF20926BAA24100F145D3;
+			remoteInfo = AloTips;
+		};
+		84DFF22C26BAA24300F145D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DFF20226BAA24100F145D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DFF20926BAA24100F145D3;
+			remoteInfo = AloTips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0814726905D6135892E4C216 /* Pods_AloTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1119CFAC46E3C1839FEA8B24 /* Pods-AloTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		314597A956C0D6612D4E3671 /* Pods_AloTips_AloTipsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloTips_AloTipsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364D26A4EC3C7A5409175ECB /* Pods-AloTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests.release.xcconfig"; sourceTree = "<group>"; };
+		84DFF20A26BAA24100F145D3 /* AloTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DFF20D26BAA24100F145D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DFF20F26BAA24100F145D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84DFF21126BAA24100F145D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DFF21426BAA24100F145D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DFF21626BAA24300F145D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DFF21926BAA24300F145D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DFF21B26BAA24300F145D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DFF22026BAA24300F145D3 /* AloTipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloTipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DFF22426BAA24300F145D3 /* AloTipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloTipsTests.swift; sourceTree = "<group>"; };
+		84DFF22626BAA24300F145D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DFF22B26BAA24300F145D3 /* AloTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DFF22F26BAA24300F145D3 /* AloTipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloTipsUITests.swift; sourceTree = "<group>"; };
+		84DFF23126BAA24300F145D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8827E8A1EF8DE8765DD4A975 /* Pods-AloTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips.debug.xcconfig"; path = "Target Support Files/Pods-AloTips/Pods-AloTips.debug.xcconfig"; sourceTree = "<group>"; };
+		8C5519D66B5C5394EBEBAD31 /* Pods-AloTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips.release.xcconfig"; path = "Target Support Files/Pods-AloTips/Pods-AloTips.release.xcconfig"; sourceTree = "<group>"; };
+		C3F048CEAA258E4EAFC6121B /* Pods-AloTips-AloTipsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips-AloTipsUITests.release.xcconfig"; path = "Target Support Files/Pods-AloTips-AloTipsUITests/Pods-AloTips-AloTipsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C49D7D42DDC66ABA1167317F /* Pods_AloTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC53ABD6468AA62AEB7586B6 /* Pods-AloTips-AloTipsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips-AloTipsUITests.debug.xcconfig"; path = "Target Support Files/Pods-AloTips-AloTipsUITests/Pods-AloTips-AloTipsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DFF20726BAA24100F145D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778A5A7D27AA18391A0AD80D /* Pods_AloTips.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFF21D26BAA24300F145D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692693766E90817A5810C843 /* Pods_AloTipsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFF22826BAA24300F145D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54D4EB617DDBF4968CF2E12 /* Pods_AloTips_AloTipsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F198BCA1DC7CA92F8684AEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8827E8A1EF8DE8765DD4A975 /* Pods-AloTips.debug.xcconfig */,
+				8C5519D66B5C5394EBEBAD31 /* Pods-AloTips.release.xcconfig */,
+				FC53ABD6468AA62AEB7586B6 /* Pods-AloTips-AloTipsUITests.debug.xcconfig */,
+				C3F048CEAA258E4EAFC6121B /* Pods-AloTips-AloTipsUITests.release.xcconfig */,
+				1119CFAC46E3C1839FEA8B24 /* Pods-AloTipsTests.debug.xcconfig */,
+				364D26A4EC3C7A5409175ECB /* Pods-AloTipsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84DFF20126BAA24100F145D3 = {
+			isa = PBXGroup;
+			children = (
+				84DFF20C26BAA24100F145D3 /* AloTips */,
+				84DFF22326BAA24300F145D3 /* AloTipsTests */,
+				84DFF22E26BAA24300F145D3 /* AloTipsUITests */,
+				84DFF20B26BAA24100F145D3 /* Products */,
+				1F198BCA1DC7CA92F8684AEB /* Pods */,
+				C20981E962C539B1CDED70E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84DFF20B26BAA24100F145D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DFF20A26BAA24100F145D3 /* AloTips.app */,
+				84DFF22026BAA24300F145D3 /* AloTipsTests.xctest */,
+				84DFF22B26BAA24300F145D3 /* AloTipsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DFF20C26BAA24100F145D3 /* AloTips */ = {
+			isa = PBXGroup;
+			children = (
+				84DFF20D26BAA24100F145D3 /* AppDelegate.swift */,
+				84DFF20F26BAA24100F145D3 /* SceneDelegate.swift */,
+				84DFF21126BAA24100F145D3 /* ViewController.swift */,
+				84DFF21326BAA24100F145D3 /* Main.storyboard */,
+				84DFF21626BAA24300F145D3 /* Assets.xcassets */,
+				84DFF21826BAA24300F145D3 /* LaunchScreen.storyboard */,
+				84DFF21B26BAA24300F145D3 /* Info.plist */,
+			);
+			path = AloTips;
+			sourceTree = "<group>";
+		};
+		84DFF22326BAA24300F145D3 /* AloTipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DFF22426BAA24300F145D3 /* AloTipsTests.swift */,
+				84DFF22626BAA24300F145D3 /* Info.plist */,
+			);
+			path = AloTipsTests;
+			sourceTree = "<group>";
+		};
+		84DFF22E26BAA24300F145D3 /* AloTipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DFF22F26BAA24300F145D3 /* AloTipsUITests.swift */,
+				84DFF23126BAA24300F145D3 /* Info.plist */,
+			);
+			path = AloTipsUITests;
+			sourceTree = "<group>";
+		};
+		C20981E962C539B1CDED70E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0814726905D6135892E4C216 /* Pods_AloTips.framework */,
+				314597A956C0D6612D4E3671 /* Pods_AloTips_AloTipsUITests.framework */,
+				C49D7D42DDC66ABA1167317F /* Pods_AloTipsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DFF20926BAA24100F145D3 /* AloTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DFF23426BAA24300F145D3 /* Build configuration list for PBXNativeTarget "AloTips" */;
+			buildPhases = (
+				0641C958C326A8399E566F1F /* [CP] Check Pods Manifest.lock */,
+				84DFF20626BAA24100F145D3 /* Sources */,
+				84DFF20726BAA24100F145D3 /* Frameworks */,
+				84DFF20826BAA24100F145D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AloTips;
+			productName = AloTips;
+			productReference = 84DFF20A26BAA24100F145D3 /* AloTips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DFF21F26BAA24300F145D3 /* AloTipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DFF23726BAA24300F145D3 /* Build configuration list for PBXNativeTarget "AloTipsTests" */;
+			buildPhases = (
+				C7D8B68BC8EF4B8712F7538D /* [CP] Check Pods Manifest.lock */,
+				84DFF21C26BAA24300F145D3 /* Sources */,
+				84DFF21D26BAA24300F145D3 /* Frameworks */,
+				84DFF21E26BAA24300F145D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DFF22226BAA24300F145D3 /* PBXTargetDependency */,
+			);
+			name = AloTipsTests;
+			productName = AloTipsTests;
+			productReference = 84DFF22026BAA24300F145D3 /* AloTipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DFF22A26BAA24300F145D3 /* AloTipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DFF23A26BAA24300F145D3 /* Build configuration list for PBXNativeTarget "AloTipsUITests" */;
+			buildPhases = (
+				BB744979EDA77A465E185BA0 /* [CP] Check Pods Manifest.lock */,
+				84DFF22726BAA24300F145D3 /* Sources */,
+				84DFF22826BAA24300F145D3 /* Frameworks */,
+				84DFF22926BAA24300F145D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DFF22D26BAA24300F145D3 /* PBXTargetDependency */,
+			);
+			name = AloTipsUITests;
+			productName = AloTipsUITests;
+			productReference = 84DFF22B26BAA24300F145D3 /* AloTipsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DFF20226BAA24100F145D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					84DFF20926BAA24100F145D3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					84DFF21F26BAA24300F145D3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 84DFF20926BAA24100F145D3;
+					};
+					84DFF22A26BAA24300F145D3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 84DFF20926BAA24100F145D3;
+					};
+				};
+			};
+			buildConfigurationList = 84DFF20526BAA24100F145D3 /* Build configuration list for PBXProject "AloTips" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DFF20126BAA24100F145D3;
+			productRefGroup = 84DFF20B26BAA24100F145D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DFF20926BAA24100F145D3 /* AloTips */,
+				84DFF21F26BAA24300F145D3 /* AloTipsTests */,
+				84DFF22A26BAA24300F145D3 /* AloTipsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DFF20826BAA24100F145D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFF21A26BAA24300F145D3 /* LaunchScreen.storyboard in Resources */,
+				84DFF21726BAA24300F145D3 /* Assets.xcassets in Resources */,
+				84DFF21526BAA24100F145D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFF21E26BAA24300F145D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFF22926BAA24300F145D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0641C958C326A8399E566F1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AloTips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB744979EDA77A465E185BA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AloTips-AloTipsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D8B68BC8EF4B8712F7538D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AloTipsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DFF20626BAA24100F145D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFF21226BAA24100F145D3 /* ViewController.swift in Sources */,
+				84DFF20E26BAA24100F145D3 /* AppDelegate.swift in Sources */,
+				84DFF21026BAA24100F145D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFF21C26BAA24300F145D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFF22526BAA24300F145D3 /* AloTipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFF22726BAA24300F145D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFF23026BAA24300F145D3 /* AloTipsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DFF22226BAA24300F145D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DFF20926BAA24100F145D3 /* AloTips */;
+			targetProxy = 84DFF22126BAA24300F145D3 /* PBXContainerItemProxy */;
+		};
+		84DFF22D26BAA24300F145D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DFF20926BAA24100F145D3 /* AloTips */;
+			targetProxy = 84DFF22C26BAA24300F145D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DFF21326BAA24100F145D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DFF21426BAA24100F145D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DFF21826BAA24300F145D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DFF21926BAA24300F145D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DFF23226BAA24300F145D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DFF23326BAA24300F145D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DFF23526BAA24300F145D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8827E8A1EF8DE8765DD4A975 /* Pods-AloTips.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KQL3J6EGS;
+				INFOPLIST_FILE = AloTips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alotips.duyklinsi.AloTips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DFF23626BAA24300F145D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5519D66B5C5394EBEBAD31 /* Pods-AloTips.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KQL3J6EGS;
+				INFOPLIST_FILE = AloTips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alotips.duyklinsi.AloTips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84DFF23826BAA24300F145D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1119CFAC46E3C1839FEA8B24 /* Pods-AloTipsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KQL3J6EGS;
+				INFOPLIST_FILE = AloTipsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alotips.duyklinsi.AloTipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AloTips.app/AloTips";
+			};
+			name = Debug;
+		};
+		84DFF23926BAA24300F145D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364D26A4EC3C7A5409175ECB /* Pods-AloTipsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KQL3J6EGS;
+				INFOPLIST_FILE = AloTipsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alotips.duyklinsi.AloTipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AloTips.app/AloTips";
+			};
+			name = Release;
+		};
+		84DFF23B26BAA24300F145D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC53ABD6468AA62AEB7586B6 /* Pods-AloTips-AloTipsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KQL3J6EGS;
+				INFOPLIST_FILE = AloTipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alotips.duyklinsi.AloTipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AloTips;
+			};
+			name = Debug;
+		};
+		84DFF23C26BAA24300F145D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F048CEAA258E4EAFC6121B /* Pods-AloTips-AloTipsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KQL3J6EGS;
+				INFOPLIST_FILE = AloTipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alotips.duyklinsi.AloTipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AloTips;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DFF20526BAA24100F145D3 /* Build configuration list for PBXProject "AloTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFF23226BAA24300F145D3 /* Debug */,
+				84DFF23326BAA24300F145D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DFF23426BAA24300F145D3 /* Build configuration list for PBXNativeTarget "AloTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFF23526BAA24300F145D3 /* Debug */,
+				84DFF23626BAA24300F145D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DFF23726BAA24300F145D3 /* Build configuration list for PBXNativeTarget "AloTipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFF23826BAA24300F145D3 /* Debug */,
+				84DFF23926BAA24300F145D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DFF23A26BAA24300F145D3 /* Build configuration list for PBXNativeTarget "AloTipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFF23B26BAA24300F145D3 /* Debug */,
+				84DFF23C26BAA24300F145D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DFF20226BAA24100F145D3 /* Project object */;
+}
