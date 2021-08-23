@@ -3,12 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		692693766E90817A5810C843 /* Pods_AloTipsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D7D42DDC66ABA1167317F /* Pods_AloTipsTests.framework */; };
 		778A5A7D27AA18391A0AD80D /* Pods_AloTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0814726905D6135892E4C216 /* Pods_AloTips.framework */; };
+		845DB80426CF696100D17A24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DB80326CF696100D17A24 /* LoginViewController.swift */; };
+		845DB80926CF697A00D17A24 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DB80826CF697900D17A24 /* SignupViewController.swift */; };
+		845DB81E26CF6D2300D17A24 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DB81D26CF6D2300D17A24 /* LoginViewModel.swift */; };
+		84AF377126CFAD22005DFBA3 /* AloTipsDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF377026CFAD22005DFBA3 /* AloTipsDefine.swift */; };
+		84AF377626CFAD68005DFBA3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AF377526CFAD67005DFBA3 /* Colors.xcassets */; };
+		84AF377E26CFB7C1005DFBA3 /* MDCFilledTextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF377D26CFB7C1005DFBA3 /* MDCFilledTextField+Extension.swift */; };
+		84B63CC826CFFC15007483C1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B63CC726CFFC14007483C1 /* WelcomeViewController.swift */; };
+		84B63CEF26D0CD51007483C1 /* AuthenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B63CEE26D0CD51007483C1 /* AuthenService.swift */; };
+		84B63D4426D39EEF007483C1 /* RxTextFieldDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B63D4326D39EEF007483C1 /* RxTextFieldDelegateProxy.swift */; };
 		84DFF20E26BAA24100F145D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF20D26BAA24100F145D3 /* AppDelegate.swift */; };
 		84DFF21026BAA24100F145D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF20F26BAA24100F145D3 /* SceneDelegate.swift */; };
 		84DFF21226BAA24100F145D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF21126BAA24100F145D3 /* ViewController.swift */; };
@@ -17,6 +26,12 @@
 		84DFF21A26BAA24300F145D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DFF21826BAA24300F145D3 /* LaunchScreen.storyboard */; };
 		84DFF22526BAA24300F145D3 /* AloTipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF22426BAA24300F145D3 /* AloTipsTests.swift */; };
 		84DFF23026BAA24300F145D3 /* AloTipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFF22F26BAA24300F145D3 /* AloTipsUITests.swift */; };
+		84DFFA5726C298B900F145D3 /* AuthenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFA5626C298B900F145D3 /* AuthenAPI.swift */; };
+		84DFFAD126C2A26D00F145D3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFAD026C2A26D00F145D3 /* UserModel.swift */; };
+		84DFFCB626C555D400F145D3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFCB526C555D400F145D3 /* Extension.swift */; };
+		84DFFCCA26C6777300F145D3 /* Authen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DFFCC926C6777300F145D3 /* Authen.storyboard */; };
+		84DFFD2726C67C0C00F145D3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFD2626C67C0C00F145D3 /* BaseViewController.swift */; };
+		84DFFD3526C684A000F145D3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFD3426C684A000F145D3 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +55,15 @@
 		0814726905D6135892E4C216 /* Pods_AloTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1119CFAC46E3C1839FEA8B24 /* Pods-AloTipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTipsTests.debug.xcconfig"; path = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		364D26A4EC3C7A5409175ECB /* Pods-AloTipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTipsTests.release.xcconfig"; path = "Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests.release.xcconfig"; sourceTree = "<group>"; };
+		845DB80326CF696100D17A24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		845DB80826CF697900D17A24 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		845DB81D26CF6D2300D17A24 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		84AF377026CFAD22005DFBA3 /* AloTipsDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloTipsDefine.swift; sourceTree = "<group>"; };
+		84AF377526CFAD67005DFBA3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		84AF377D26CFB7C1005DFBA3 /* MDCFilledTextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MDCFilledTextField+Extension.swift"; sourceTree = "<group>"; };
+		84B63CC726CFFC14007483C1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		84B63CEE26D0CD51007483C1 /* AuthenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenService.swift; sourceTree = "<group>"; };
+		84B63D4326D39EEF007483C1 /* RxTextFieldDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTextFieldDelegateProxy.swift; sourceTree = "<group>"; };
 		84DFF20A26BAA24100F145D3 /* AloTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DFF20D26BAA24100F145D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DFF20F26BAA24100F145D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +78,12 @@
 		84DFF22B26BAA24300F145D3 /* AloTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AloTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DFF22F26BAA24300F145D3 /* AloTipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloTipsUITests.swift; sourceTree = "<group>"; };
 		84DFF23126BAA24300F145D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DFFA5626C298B900F145D3 /* AuthenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenAPI.swift; sourceTree = "<group>"; };
+		84DFFAD026C2A26D00F145D3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		84DFFCB526C555D400F145D3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		84DFFCC926C6777300F145D3 /* Authen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authen.storyboard; sourceTree = "<group>"; };
+		84DFFD2626C67C0C00F145D3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84DFFD3426C684A000F145D3 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		8827E8A1EF8DE8765DD4A975 /* Pods-AloTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips.debug.xcconfig"; path = "Target Support Files/Pods-AloTips/Pods-AloTips.debug.xcconfig"; sourceTree = "<group>"; };
 		8C5519D66B5C5394EBEBAD31 /* Pods-AloTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AloTips.release.xcconfig"; path = "Target Support Files/Pods-AloTips/Pods-AloTips.release.xcconfig"; sourceTree = "<group>"; };
 		C49D7D42DDC66ABA1167317F /* Pods_AloTipsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AloTipsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +124,6 @@
 				1119CFAC46E3C1839FEA8B24 /* Pods-AloTipsTests.debug.xcconfig */,
 				364D26A4EC3C7A5409175ECB /* Pods-AloTipsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,13 +152,18 @@
 		84DFF20C26BAA24100F145D3 /* AloTips */ = {
 			isa = PBXGroup;
 			children = (
+				84DFFD2526C67BDF00F145D3 /* Common */,
+				84DFFCB426C555BD00F145D3 /* Extension */,
+				84DFFA4D26C297E000F145D3 /* Modules */,
 				84DFF20D26BAA24100F145D3 /* AppDelegate.swift */,
 				84DFF20F26BAA24100F145D3 /* SceneDelegate.swift */,
 				84DFF21126BAA24100F145D3 /* ViewController.swift */,
 				84DFF21326BAA24100F145D3 /* Main.storyboard */,
 				84DFF21626BAA24300F145D3 /* Assets.xcassets */,
+				84AF377526CFAD67005DFBA3 /* Colors.xcassets */,
 				84DFF21826BAA24300F145D3 /* LaunchScreen.storyboard */,
 				84DFF21B26BAA24300F145D3 /* Info.plist */,
+				84AF377026CFAD22005DFBA3 /* AloTipsDefine.swift */,
 			);
 			path = AloTips;
 			sourceTree = "<group>";
@@ -152,6 +186,112 @@
 			path = AloTipsUITests;
 			sourceTree = "<group>";
 		};
+		84DFFA4D26C297E000F145D3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA4E26C297E800F145D3 /* Authen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84DFFA4E26C297E800F145D3 /* Authen */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA5426C2986B00F145D3 /* Network */,
+				84DFFA5326C2984300F145D3 /* Model */,
+				84DFFA5226C2982D00F145D3 /* View */,
+				84DFFA5126C2982600F145D3 /* ViewModel */,
+			);
+			path = Authen;
+			sourceTree = "<group>";
+		};
+		84DFFA5026C2981C00F145D3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84B63CEE26D0CD51007483C1 /* AuthenService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84DFFA5126C2982600F145D3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				845DB81D26CF6D2300D17A24 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84DFFA5226C2982D00F145D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFD3326C6843200F145D3 /* ViewController */,
+				84DFFCCE26C677AD00F145D3 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84DFFA5326C2984300F145D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAD026C2A26D00F145D3 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84DFFA5426C2986B00F145D3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA5026C2981C00F145D3 /* Service */,
+				84DFFA5526C2987300F145D3 /* APIs */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		84DFFA5526C2987300F145D3 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA5626C298B900F145D3 /* AuthenAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		84DFFCB426C555BD00F145D3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFCB526C555D400F145D3 /* Extension.swift */,
+				84AF377D26CFB7C1005DFBA3 /* MDCFilledTextField+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84DFFCCE26C677AD00F145D3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFCC926C6777300F145D3 /* Authen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		84DFFD2526C67BDF00F145D3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFD2626C67C0C00F145D3 /* BaseViewController.swift */,
+				84B63D4326D39EEF007483C1 /* RxTextFieldDelegateProxy.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84DFFD3326C6843200F145D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFD3426C684A000F145D3 /* ForgotPasswordViewController.swift */,
+				845DB80326CF696100D17A24 /* LoginViewController.swift */,
+				845DB80826CF697900D17A24 /* SignupViewController.swift */,
+				84B63CC726CFFC14007483C1 /* WelcomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		C20981E962C539B1CDED70E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,7 +312,7 @@
 				84DFF20626BAA24100F145D3 /* Sources */,
 				84DFF20726BAA24100F145D3 /* Frameworks */,
 				84DFF20826BAA24100F145D3 /* Resources */,
-				815D64C1E0904A7F63E283B2 /* [CP] Embed Pods Frameworks */,
+				F932A38EBF07624D5F5B6BD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,7 +331,6 @@
 				84DFF21C26BAA24300F145D3 /* Sources */,
 				84DFF21D26BAA24300F145D3 /* Frameworks */,
 				84DFF21E26BAA24300F145D3 /* Resources */,
-				5DEA595330FD9D5C9AD214AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,7 +407,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AF377626CFAD68005DFBA3 /* Colors.xcassets in Resources */,
 				84DFF21A26BAA24300F145D3 /* LaunchScreen.storyboard in Resources */,
+				84DFFCCA26C6777300F145D3 /* Authen.storyboard in Resources */,
 				84DFF21726BAA24300F145D3 /* Assets.xcassets in Resources */,
 				84DFF21526BAA24100F145D3 /* Main.storyboard in Resources */,
 			);
@@ -313,40 +454,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5DEA595330FD9D5C9AD214AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AloTipsTests/Pods-AloTipsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		815D64C1E0904A7F63E283B2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C7D8B68BC8EF4B8712F7538D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,6 +476,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F932A38EBF07624D5F5B6BD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AloTips/Pods-AloTips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -377,7 +501,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DFF21226BAA24100F145D3 /* ViewController.swift in Sources */,
+				84DFFA5726C298B900F145D3 /* AuthenAPI.swift in Sources */,
+				845DB80926CF697A00D17A24 /* SignupViewController.swift in Sources */,
+				84DFFCB626C555D400F145D3 /* Extension.swift in Sources */,
+				84B63CEF26D0CD51007483C1 /* AuthenService.swift in Sources */,
 				84DFF20E26BAA24100F145D3 /* AppDelegate.swift in Sources */,
+				84B63CC826CFFC15007483C1 /* WelcomeViewController.swift in Sources */,
+				84DFFD3526C684A000F145D3 /* ForgotPasswordViewController.swift in Sources */,
+				84DFFD2726C67C0C00F145D3 /* BaseViewController.swift in Sources */,
+				84B63D4426D39EEF007483C1 /* RxTextFieldDelegateProxy.swift in Sources */,
+				845DB81E26CF6D2300D17A24 /* LoginViewModel.swift in Sources */,
+				84AF377126CFAD22005DFBA3 /* AloTipsDefine.swift in Sources */,
+				84DFFAD126C2A26D00F145D3 /* UserModel.swift in Sources */,
+				845DB80426CF696100D17A24 /* LoginViewController.swift in Sources */,
+				84AF377E26CFB7C1005DFBA3 /* MDCFilledTextField+Extension.swift in Sources */,
 				84DFF21026BAA24100F145D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
