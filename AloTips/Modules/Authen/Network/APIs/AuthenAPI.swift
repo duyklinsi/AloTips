@@ -28,10 +28,6 @@ extension AuthenAPI: BaseAPIRequest {
         return .post
     }
     
-    var sampleData: Data {
-        return Data()
-    }
-    
     var task: Task {
         if let body = body {
             var multipartData = [MultipartFormData]()
@@ -59,7 +55,5 @@ extension AuthenAPI: BaseAPIRequest {
             return params
         }
     }
-    
-    
 }
 

@@ -93,8 +93,14 @@ extension BaseViewController {
      - parameter title: The title of Navigation Bar
      */
     public func setNavigationBarTitle(title: String) {
-        self.navigationItem.title = title
-        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: textFont]
+        let label = UILabel()
+        label.backgroundColor = .clear
+        label.numberOfLines = 2
+        label.font = textFont
+        label.textAlignment = .center
+        label.textColor = AloTipsColor.purple_main.color
+        label.text = title
+        self.navigationItem.titleView = label
     }
     
     /**

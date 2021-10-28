@@ -8,11 +8,13 @@
 import UIKit
 import CommonFramework
 import IQKeyboardManagerSwift
+import ESTabBarController_swift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var tabbarController: ESTabBarController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

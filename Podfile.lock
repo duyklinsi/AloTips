@@ -1,17 +1,5 @@
 PODS:
-  - Alamofire (5.4.3)
-  - CommonFramework (1.1.9):
-    - Alamofire
-    - DropDown
-    - IQKeyboardManagerSwift
-    - Kingfisher
-    - Moya
-    - NVActivityIndicatorView
-    - ReachabilitySwift
-    - SwiftyJSON
-  - DropDown (2.3.13)
-  - IQKeyboardManagerSwift (6.5.6)
-  - Kingfisher (6.3.1)
+  - ESTabBarController-swift (2.8.0)
   - MaterialComponents (124.2.0):
     - MaterialComponents/ActionSheet (= 124.2.0)
     - "MaterialComponents/ActionSheet+Theming (= 124.2.0)"
@@ -657,76 +645,42 @@ PODS:
   - MotionAnimator (4.0.1):
     - MotionInterchange (~> 3.0)
   - MotionInterchange (3.0.0)
-  - Moya (14.0.0):
-    - Moya/Core (= 14.0.0)
-  - Moya/Core (14.0.0):
-    - Alamofire (~> 5.0)
-  - NVActivityIndicatorView (5.1.1):
-    - NVActivityIndicatorView/Base (= 5.1.1)
-  - NVActivityIndicatorView/Base (5.1.1)
-  - ReachabilitySwift (5.0.0)
   - RxCocoa (6.2.0):
     - RxRelay (= 6.2.0)
     - RxSwift (= 6.2.0)
   - RxRelay (6.2.0):
     - RxSwift (= 6.2.0)
   - RxSwift (6.2.0)
-  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
-  - CommonFramework (from `https://github.com/duyklinsi/CommonFramework.git`, tag `1.1.9`)
+  - ESTabBarController-swift
   - MaterialComponents
   - RxCocoa
   - RxSwift
 
 SPEC REPOS:
   trunk:
-    - Alamofire
-    - DropDown
-    - IQKeyboardManagerSwift
-    - Kingfisher
+    - ESTabBarController-swift
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
     - MotionAnimator
     - MotionInterchange
-    - Moya
-    - NVActivityIndicatorView
-    - ReachabilitySwift
     - RxCocoa
     - RxRelay
     - RxSwift
-    - SwiftyJSON
-
-EXTERNAL SOURCES:
-  CommonFramework:
-    :git: https://github.com/duyklinsi/CommonFramework.git
-    :tag: 1.1.9
-
-CHECKOUT OPTIONS:
-  CommonFramework:
-    :git: https://github.com/duyklinsi/CommonFramework.git
-    :tag: 1.1.9
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  CommonFramework: 58e71a688942fa08446d945ce2865f8a30dea7c4
-  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
-  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
-  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
   MotionAnimator: 5f99d7c9592928c0f28a66283eda9c3b657dc480
   MotionInterchange: 13adae439b377e31d1674cc165539d50e1d1566a
-  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
-  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
-  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: a2f92001ee1804ed58ace2d094770cde7f33725e
+PODFILE CHECKSUM: f4a0d20a1cfeb706e90c1cbf4fb2a9011ec04e12
 
 COCOAPODS: 1.10.2

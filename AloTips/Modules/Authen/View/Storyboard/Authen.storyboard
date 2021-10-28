@@ -147,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mtk-ln-y0b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1004" y="-163.26836581709148"/>
+            <point key="canvasLocation" x="1004" y="-163"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="QvM-mD-DPg">
@@ -362,10 +362,10 @@
             </objects>
             <point key="canvasLocation" x="1845" y="596"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation View Controller-->
         <scene sceneID="eVE-sa-3aG">
             <objects>
-                <navigationController restorationIdentifier="initialLogin" storyboardIdentifier="initialLogin" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="24b-IJ-nJ0" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="24b-IJ-nJ0" customClass="BaseNavigationViewController" customModule="AloTips" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="WKO-hb-EhQ">
                         <autoresizingMask key="autoresizingMask"/>

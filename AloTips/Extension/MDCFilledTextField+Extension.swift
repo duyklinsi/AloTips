@@ -29,7 +29,7 @@ extension MDCFilledTextField: FormInputStyle {
     }
     
     public var floatingLabelColorEditting: UIColor {
-        return AloTipsColor.blue_main_color.value()
+        return AloTipsColor.blue_main.color
     }
     
     public var filledBackgroundColorNormal: UIColor {
@@ -41,11 +41,11 @@ extension MDCFilledTextField: FormInputStyle {
     }
     
     public var underlineColorNormal: UIColor {
-        return AloTipsColor.dark_gray_main_color.value()
+        return AloTipsColor.purple_main.color
     }
     
     public var underlineColorEditting: UIColor {
-        return AloTipsColor.blue_main_color.value()
+        return AloTipsColor.blue_main.color
     }
     
     public var textColorNormal: UIColor {
@@ -57,11 +57,11 @@ extension MDCFilledTextField: FormInputStyle {
     }
     
     public var normalLabelColorNormal: UIColor {
-        return AloTipsColor.dark_gray_main_color.value()
+        return AloTipsColor.purple_main.color
     }
     
     public var normalLabelColorEditting: UIColor {
-        return AloTipsColor.blue_main_color.value()
+        return AloTipsColor.blue_main.color
     }
     
     func style() {

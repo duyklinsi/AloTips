@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 
 enum AloTipsColor: String {
-    case blue_main_color = "blue_main_color"
-    case dark_gray_main_color = "dark_gray_main_color"
-    
-    func value() -> UIColor {
+    case blue_main = "blue_main_color"
+    case purple_main = "purple_main_color"
+        
+    var color: UIColor {
         return UIColor(named: self.rawValue)!
     }
 }

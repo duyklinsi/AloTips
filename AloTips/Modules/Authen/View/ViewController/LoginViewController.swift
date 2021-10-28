@@ -48,7 +48,7 @@ class LoginViewController: BaseViewController {
 // MARK: - Private functions
 extension LoginViewController {
     private func setupUI() {
-        //setup navigation bar
+        // setup navigation bar
         setupNavigationBar("LOGIN", barColor: .clear, itemLefts: [backBarButtonItem])
         
         // hide keyboard
@@ -61,6 +61,9 @@ extension LoginViewController {
         // setup password textfield
         passwordTextfield.label.text = "Your Password *"
         passwordTextfield.style()
+        
+        emailTextfield.text = "ddd@ddd.com"
+        passwordTextfield.text = "213456"
     }
     
     private func setupData() {
@@ -120,12 +123,13 @@ extension LoginViewController {
     
     private func subscribeToResponse() {
         loginViewModel.responseObservable
-            .subscribe(onNext: {[weak self] (response) in
+            .subscribe(onNext: { [weak self] (response) in
                 guard let self = self else { return }
                 switch response {
                 case .success(let userModel):
                     guard let userModel = userModel else { return }
                     print("\(userModel)")
+                    Utils.createTabbarViewController()
                 case .failure(let error):
                     print(error)
                     self.showAlert(title: error.title, message: error.description)
@@ -163,6 +167,7 @@ extension LoginViewController {
             })
             .disposed(by: disposeBag)
     }
+    
 }
 
 

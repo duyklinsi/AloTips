@@ -30,7 +30,7 @@ class LoginViewModel {
         return responseSubject
     }
     
-    var authenService: AuthenService!
+    private var authenService: AuthenService!
     
     // MARK: - Init functions
     init(authenService: AuthenService) {
@@ -75,6 +75,7 @@ extension LoginViewModel {
             validateBehavior.accept(.password(message: "Password must be at least 6 characters!"))
             return false
         }
+        
         return true
     }
 }
